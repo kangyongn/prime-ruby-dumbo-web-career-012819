@@ -9,9 +9,11 @@ def prime? (number)
     true
   
   else
-    i = 
+    i = 2
     while i <= number
-      if 
+      return false if number % i == 0
+      i += 1
     end
+    true
   end
 end
