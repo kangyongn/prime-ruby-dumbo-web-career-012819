@@ -11,10 +11,8 @@ def prime? (number)
   
   # counter.
   i = 5
-  
   while number ** 2 <= number
-    
-    #
+    false if n % i == 0 || n % (i + 2) == 0
     i = i + 6
   end
 end
