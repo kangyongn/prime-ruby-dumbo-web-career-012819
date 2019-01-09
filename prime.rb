@@ -6,6 +6,7 @@ def prime? (number)
   # 2, 3 is a prime number.
   true if number <= 3
   
-  
+  # check for efficiency.
+  false if n % 2 == 0 || n % 3 == 0
   
 end
