@@ -5,6 +5,10 @@ def prime? (number)
     false
   
   # 2, 3 is a prime number.
-  return true if number <= 3
+  elsif number <= 3
+    true
+  
+  else
+    
 
 end
