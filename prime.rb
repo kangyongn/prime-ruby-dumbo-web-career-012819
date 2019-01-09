@@ -11,9 +11,11 @@ def prime? (number)
   else
     i = 2
     while i <= number
-     return false if number % i == 0
+      if number % i == 0
+        return false
+      end
       i += 1
     end
-    true
+    return true
   end
 end
