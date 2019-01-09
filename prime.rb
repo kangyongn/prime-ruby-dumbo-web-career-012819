@@ -10,6 +10,8 @@ def prime? (number)
   
   else
     i = 
-    while 
+    while i <= number
+      if 
+    end
   end
 end
