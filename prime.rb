@@ -12,5 +12,9 @@ def prime? (number)
   # counter.
   i = 5
   
-  while number ** 2
+  while number ** 2 <= number
+    
+    #
+    i = i + 6
+  end
 end
