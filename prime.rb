@@ -9,6 +9,7 @@ def prime? (number)
     true
   
   else
-    
-
+    i = 
+    while 
+  end
 end
