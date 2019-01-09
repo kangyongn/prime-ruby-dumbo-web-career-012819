@@ -7,6 +7,10 @@ def prime? (number)
   true if number <= 3
   
   # check for efficiency.
-  false if n % 2 == 0 || n % 3 == 0
+  false if number % 2 == 0 || number % 3 == 0
   
+  # counter.
+  i = 5
+  
+  while number ** 2
 end
